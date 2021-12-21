@@ -52,7 +52,10 @@ footer:
       url: https://www.linkedin.com/in/matieux/
     - label: GitHub
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/digital-stoic"
+      url: https://github.com/digital-stoic
+    - label: StackOverflow
+      icon: "fab fa-stack-overflow"
+      url: https://stackoverflow.com/users/4596432/digital-stoic
 
 
 
