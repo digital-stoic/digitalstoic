@@ -5,12 +5,12 @@ paginate: false
 backgroundColor: #fff
 # backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
+
 <style>
     section.title h1, section.title h2, section.title p {
         text-align: center;
     }
 </style>
-
 
 <!-- _class: title -->
 
@@ -23,7 +23,7 @@ https://digitalstoic.io/
 
 <!-- _class: title -->
 
-# _Is Programming Science or Art?_
+# _Is programming science or art?_
 
 --- 
 
@@ -31,13 +31,11 @@ https://digitalstoic.io/
 
 # This is the most mythical programming book ever
 
-## Written by a Computer [_Scientist_](https://en.wikipedia.org/wiki/Donald_Knuth)
+## Written by a computer [_scientist_](https://en.wikipedia.org/wiki/Donald_Knuth)
 
 (acknowledged by [Bill Gates](https://www.quora.com/Why-did-Bill-Gates-say-If-you-think-you-re-a-really-good-programmer-read-Art-of-Computer-Programming-You-should-definitely-send-me-a-r%C3%A9sum%C3%A9-if-you-can-read-the-whole-thing) himself)
 
-
 <!-- Notes:  “If you think you’re a really good programmer… read Art of Computer Programming… You should definitely send me a résumé if you can read the whole thing” -->
-
 
 ---
 
@@ -49,7 +47,7 @@ https://digitalstoic.io/
 
 <!-- _class: title -->
 
-# _Why Do Experts Emphasize the Creativity in Programming?_
+# _Why do experts emphasize creativity in programming?_
 
 --- 
 
@@ -57,27 +55,26 @@ https://digitalstoic.io/
 
 ![bg right:50% 100%](img/mental-models.png)
 
-Good developers turn into reality conceptual models, in a clear and safe manner that meets the users' expectations and world view
+Good developers:
+- Turn into reality conceptual models, in a clear and safe manner that meets the users' expectations and world view
+- Are good at mental models of mental models
 
 ---
 
 ![bg right:40% 93%](img/design-everyday-things.jpg)
 
-# This is _real_ Design
+# This is _real_ design
  
-Principles from the only book to read:
-- Visibility
-- Affordance
-- <span style="color:red">System Image</span>
-- <span style="color:red">Mental Models</span>
-- (Natural) mapping
-- Feedback
+Principles from the best design book ever:
+- Visibility, affordance, <span style="color:red">system image</span>, <span style="color:red">, mental models</span>, (natural) mapping, feedback
+
+Sir Fred Brooks: [The Design of Design](https://en.wikipedia.org/wiki/The_Design_of_Design) (nothing new since the IBM 360 in the 60s)
 
 ---
 
 # Waterfall development
 
-OK for rocket engineering though
+Needed by space engineering
 
 # 
 # Corporate Agile
@@ -97,11 +94,11 @@ Refine over time the conceptual model
 
 ---
 
-# Many methodologies and frameworks
+# Many methodologies around the corner
 
-Design Thinking, Domain-Driven Design, Design Sprints, etc... 
+Design Thinking, [Domain-Driven Design](https://github.com/ddd-crew/ddd-starter-modelling-process), [Design Sprints](https://www.gv.com/sprint/), etc... 
 
-But we're far from satisfactory practices. As an industry, software is still _immature_
+But we're far from satisfactory practices. As an industry, software is still [_immature_](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
 
 ![bg right:40%](img/DDD-books.jpg)
 
@@ -109,55 +106,72 @@ But we're far from satisfactory practices. As an industry, software is still _im
 
 # The dangers of bad design
 
-It's not a process failure, it's a design failure:
+It's not a process failure, it's a [design failure](https://www.core77.com/posts/105540/Screenshot-of-the-Horrific-UI-Design-That-Led-Citigroup-to-Accidentally-Send-893-Million):
 - As a Maker, _what am I supposed to do?_
 - As a Checker, _am I sure how the system work? Will there be side effects?_
 
 ![bg right:40% 95%](img/flexcube.jpg)
+
+--- 
+
+<!-- _class: title -->
+
+# _So what should we do?_
 
 ---
 
 # Foster good design
 
 It's not about fancy office and post-its. What matters:
-- Build shared understanding
-- [Protect the flow of developers](http://www.paulgraham.com/makersschedule.html)
-- Enable safe experiments
+- Build [shared understanding](https://www.jpattonassociates.com/story-mapping/)
+- Protect the [flow of developers](http://www.paulgraham.com/makersschedule.html)
+- Enable safe experiments[
+... and good [Agile philosophy](https://agilemanifesto.org/principles.html)
 
 ![bg right](img/flow.jpg)
 
 ---
 
-# what is the Future of Programming?
+<!-- _class: title -->
+
+# The future of programming: better design 
 
 ---
 
-# Low Code is simply being afraid of Code
+# Low Code is for those who are <a href=" https://architectelevator.com/architecture/low-code-no-code/">afraid of code</a>
 
-<!-- TODO: Link from architecture article -->
+Nothing new: "Everything besides assembly language is low-code"
 
-Code management practices brings too many benefits: versioning, auditing, etc
-Visual rendering: yes
-Visual programming: meh
+Well managed clear code is an asset, not a liability 
 
----
-
-# AI Coding
-
-Impressive starts (Github) but mosty for boilerplate
-The high-level of design will be possible with almost-generic AI?
+![bg right](img/no-code.png)
 
 ---
 
-#  Higher-Level Programming Languages
+# AI as developers?
 
-Simply history of computing since its inception
-Lots of promising complex 'world-realistic' types from FP strongly typed languages
-Ex. with 
-https://en.wikipedia.org/wiki/Literate_programming from Knuth (again). Jupyter notebooks are a step into taht direction
+[GitHub Copilot](https://copilot.github.com/) is an impressive start but it mostly generates boilerplate
+
+AI generating conceptual models of "real world" will be close to general intelligence
+
+![bg right 99%](img/copilot.png)
 
 ---
 
+#  Higher and higher level languages
 
+Promising (but not new) techniques, especially from FP:
 
+ADT ([Algebraic Data Type](https://fsharpforfunandprofit.com/posts/type-size-and-design/)), DSL ([Domain Specific Language](https://www.pirrmann.net/fun-with-turtles/)), [Literate programming](https://en.wikipedia.org/wiki/Literate_programming) (Knuth again), declarative languages, etc
 
+![bg right 100%](img/tower.png)
+
+---
+
+<!-- _class: title -->
+
+# Let's spread ❤️ and good (conceptual) design 
+
+---
+
+![bg](img/doors.jpg)

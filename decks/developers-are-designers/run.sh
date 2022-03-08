@@ -1,5 +1,11 @@
 #!/bin/sh
 
-npx @marp-team/marp-cli@latest index.md
+OUT="out"
+mkdir -p $OUT
 
-python3 -m http.server 8000
+npx @marp-team/marp-cli@latest --html --allow-local-files index.md -o ${OUT}/index.html
+npx @marp-team/marp-cli@latest --html --allow-local-files index.md -o ${OUT}/index.pdf
+
+if [ "$DEBUG" = "1" ]; then
+    python3 -m http.server 8000
+fi

@@ -2,4 +2,4 @@
 
 ## Presentations
 
-* [Developers are (Conceptual) Designers](decks/developers-are-designers/README.md)
+* [Developers are (Conceptual) Designers](decks/README.md)
