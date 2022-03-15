@@ -66,7 +66,7 @@ Good developers:
 # This is _real_ design
  
 Principles from the best design book ever:
-- Visibility, affordance, <span style="color:red">system image</span>, <span style="color:red">, mental models</span>, (natural) mapping, feedback
+- Visibility, affordance, <span style="color:red">system image</span>, <span style="color:red">mental models</span>, (natural) mapping, feedback
 
 Sir Fred Brooks: [The Design of Design](https://en.wikipedia.org/wiki/The_Design_of_Design) (nothing new since the IBM 360 in the 60s)
 
@@ -125,7 +125,7 @@ It's not a process failure, it's a [design failure](https://www.core77.com/posts
 It's not about fancy office and post-its. What matters:
 - Build [shared understanding](https://www.jpattonassociates.com/story-mapping/)
 - Protect the [flow of developers](http://www.paulgraham.com/makersschedule.html)
-- Enable safe experiments[
+- Enable safe experiments
 ... and good [Agile philosophy](https://agilemanifesto.org/principles.html)
 
 ![bg right](img/flow.jpg)
